@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Portfolio of Romelyn L. Mocorro, Computer Science student.">
+  <title>Romelyn L. Mocorro | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home">R. Mocorro</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="hero-role">Computer Science student</p>
+        <h1>Romelyn L. Mocorro</h1>
+        <p class="hero-text">I build clear, working software and care about how it is written, tested, and explained.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact me</a>
+        </div>
+      </div>
+            <figure class="hero-photo">
+        <!-- Your photo: save it as image.jpg in the same folder as index.html -->
+        <div class="photo-frame">
+          <img src="assets/image.jpg" alt="Portrait of Romelyn L. Mocorro" width="400" height="400" onerror="this.remove()">
+        </div>
+      </figure>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="about-grid">
+        <p>I am a Bachelor of Science in Computer Science student at Biliran Province State University in the Philippines. My coursework covers networking, operating systems, software engineering, and social issues in computing.</p>
+        <p>I was born on July 18, 2005, and I live in Buyo, Kawayan, Biliran. I am an outgoing person who enjoys working with others. Outside of school, I love singing, swimming, eating good food, and having a drink with friends. I am adventurous and always excited to explore new things.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Seashell Species Identification and Edibility Classification</h3>
+          <p>A group thesis that uses a Convolutional Neural Network (CNN) to identify seashell species from photos and classify whether each one is edible.</p>
+          <p class="tags">Python, CNN, Image classification</p>
+        </article>
+        <article class="card">
+          <h3>Parallel Data Filtering</h3>
+          <p>A group performance task for Parallel and Distributed Computing. It filters a dataset using divide and conquer, then compares serial and parallel run times.</p>
+          <p class="tags">Parallel computing, Divide and conquer</p>
+        </article>
+        <article class="card">
+          <h3>Personal Portfolio Website</h3>
+          <p>This site. It uses semantic HTML, a shared vein bleu design system, and a mobile-first layout with three breakpoints.</p>
+          <p class="tags">HTML5, CSS3, JavaScript</p>
+        </article>
+      </div>
+    </section>
+    
+    <section id="certificates" class="section">
+  <h2>Certificates</h2>
+  <div class="cert-grid">
+    <figure class="cert-card">
+      <a href="certificates/E-certificate.png" target="_blank" rel="noopener">
+        <img src="certificates/E-certificate.png" alt="E-certificate awarded to Romelyn L. Mocorro" loading="lazy">
+      </a>
+      <figcaption>E-Certificate</figcaption>
+    </figure>
+    <figure class="cert-card">
+      <a href="certificates/Integrated_os.png" target="_blank" rel="noopener">
+        <img src="certificates/Integrated_os.png" alt="Integrated Operating Systems certificate awarded to Romelyn L. Mocorro" loading="lazy">
+      </a>
+      <figcaption>Integrated Operating Systems</figcaption>
+    </figure>
+  </div>
+</section>
+
+    <section id="skills" class="section">
+     <h2>Skills</h2>
+     <div class="skills-grid">
+     <div>
+      <h3>Personal skills</h3>
+      <ul class="chips">
+        <li>Adaptability</li>
+        <li>Time management</li>
+        <li>Willingness to learn</li>
+        <li>Self-discipline</li>
+        <li>Responsibility</li>
+        <li>Attention to detail</li>
+      </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="contact-intro">Send a message and I will reply by email.</p>
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="btn btn-primary" type="submit">Send message</button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+      <p class="contact-links">
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
+        <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Romelyn L. Mocorro. <a href="#home">Back to top</a></p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
